@@ -1,3 +1,5 @@
+
+//array of plants containing pushed seedObject
 export const fieldPlants = []
 
 export const addPlant = (seedObject) => {
@@ -12,7 +14,7 @@ export const addPlant = (seedObject) => {
 
 }
 }
-
+//copy of fieldPlants array
 export const usePlants = () => {
 
     return fieldPlants.slice()

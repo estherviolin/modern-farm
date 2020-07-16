@@ -6,6 +6,12 @@ import { createSunflower } from "./seeds/sunflower.js"
 import { createWheat } from "./seeds/wheat.js"
 import {addPlant} from "./field.js"
 
+//function that accepts a plan array, 
+// loops through the rows
+// loops through plants of the rows
+// returns the seedObject
+// adds plant to fieldPlants array
+
 export const plantSeeds = (yearPlanArray) => {
 
     // loops through plan array
@@ -26,9 +32,8 @@ export const plantSeeds = (yearPlanArray) => {
     }
     else if (plant==="Soybean") {
         addPlant(createSoybean())
-    
     }
-        else if (plant==="Sunflower") {
+    else if (plant==="Sunflower") {
         addPlant(createSunflower())
     }
     else if (plant==="Wheat") {
