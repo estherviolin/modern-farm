@@ -3,7 +3,7 @@ console.log("Welcome to the main module")
 import {createPlan} from "./plan.js"
 import {usePlants} from "./field.js"
 import {plantSeeds} from "./tractor.js"
-import {harvestPlants} from "./harverster.js"
+import {harvestPlants} from "./harvester.js"
 import {catalog} from "./catalog.js"
 
 //array of arrays
