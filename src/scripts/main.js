@@ -13,8 +13,10 @@ const yearlyPlan = createPlan()
 //plants arrays
 plantSeeds(yearlyPlan)
 
+//array of seedObjects
 const arrOfPlants = usePlants()
 
+//array of seedObjects planted output number of times
 const harvestedFood = harvestPlants(arrOfPlants)
 
 console.log(harvestedFood)

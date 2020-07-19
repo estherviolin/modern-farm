@@ -1,5 +1,7 @@
+//array of plants
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
+//function to return plan array
 export const createPlan = () => {
     const plan = []
 

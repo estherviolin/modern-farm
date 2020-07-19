@@ -1,3 +1,4 @@
+//function that returns wheat object
 export const createWheat = () => {
     return {
         type: "Wheat",

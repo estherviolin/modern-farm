@@ -1,3 +1,5 @@
+//function that returns asparagus object
+
 export const createAsparagus = () => {
     return {
         type: "Asparagus",

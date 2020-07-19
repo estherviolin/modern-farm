@@ -1,3 +1,4 @@
+//function that returns potato object
 export const createPotato = () => {
     return {
         type: "Potato",

@@ -9,7 +9,7 @@ import {addPlant} from "./field.js"
 //function that accepts a plan array, 
 // loops through the rows
 // loops through plants of the rows
-// returns the seedObject
+// returns the seedObject, passes as argument in addPlant function
 // adds plant to fieldPlants array
 
 export const plantSeeds = (yearPlanArray) => {

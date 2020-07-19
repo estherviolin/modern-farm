@@ -1,3 +1,4 @@
+//function that returns array of corn objects
 export const createCorn = () => {
     return [
         {
