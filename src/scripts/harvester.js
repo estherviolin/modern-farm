@@ -6,7 +6,7 @@ export const harvestPlants = (plantsArray) => {
     const seedObjectArray = []
 
     //loops through array of plants
-    for (const plant of plantsArray) {
+    plantsArray.map(plant =>  {
         if (plant.type==="Corn") {
             for (let i= 0; i<plant.output / 2; i++) {
                 seedObjectArray.push(plant) 
@@ -17,6 +17,8 @@ export const harvestPlants = (plantsArray) => {
         seedObjectArray.push(plant) 
         }
     }
-}
+})
 return seedObjectArray
 }
+
+
